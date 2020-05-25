@@ -22,7 +22,7 @@
         </div>
     </div>
     <div class="course-list">
-        <div class="courseitem small" v-for="i in selectedSemester" :key="i">
+        <div class="courseitem center" v-for="i in selectedSemester" :key="i">
             <p>Semester {{i}}</p>
             <input type="number" step=0.1 v-model="spis[i]"
                    :placeholder="textfield(i)" max="10" min="0">
@@ -67,4 +67,9 @@ export default {
 <style scoped lang="scss">
 
 @import '../styles/home.scss';
+
+.center {
+  justify-content: center;
+}
+
 </style>
