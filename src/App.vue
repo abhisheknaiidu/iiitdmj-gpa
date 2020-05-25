@@ -4,7 +4,15 @@
     <div class="content">
       <h1>ABHISHEK</h1>
       <div class="main">
-        <div class="cpibox">
+      <div class="selection">
+          <button @click="spi=true" :class="[spi ? 'active' : '']" >Semester GPA</button>
+          <button @click="spi=false" :class="[spi ? '' : 'active']">Cumulative GPA
+          </button>
+      </div>
+      <div class="spibox" v-if="spi">
+        <SPI/>
+      </div>
+      <div class="cpibox" v-if="!spi">
         <CPI/>
       </div>
     </div>
@@ -14,15 +22,18 @@
 </template>
 
 <script>
+import SPI from '@/components/SPI.vue';
 import CPI from '@/components/CPI.vue';
 
 export default {
   name: 'App',
   components: {
+    SPI,
     CPI,
   },
   data() {
     return {
+      spi: true,
     };
   },
 };
