@@ -3,14 +3,14 @@
       <div class="nav">
         <div class="branch">
         <label>Branch</label>
-        <button @click="selectedBranch='cse',selected=true"
-                :class="[selected ? 'active' : '']"> CSE
+        <button @click="selected='!selectedB',selectedBranch='cse'"
+                :class="[selected ? 'active' : '']" > CSE
         </button>
-        <button @click="selectedBranch='ece',selected=false"
-                :class="[selected ? '' : 'active']"> ECE
+        <button @click="selected='!selectedB',selectedBranch='ece'"
+                :class="[selected ? 'active' : '']"> ECE
         </button>
-        <button @click="selectedBranch='me',selected=false"
-                :class="[selected ? '' : 'active']"> ME
+        <button @click="selected='!selectedB',selectedBranch='me'"
+                :class="[selected ? 'active' : '']"> ME
         </button>
         </div>
     <div class="semester">
@@ -23,7 +23,7 @@
     <div class="course-list">
         <div class="courseitem small" v-for="i in selectedSemester" :key="i">
             <p>Semester {{i}}</p>
-            <input type="number" v-model="sgpa[i]" :placeholder="placeholder(i)" max="10" min="0">
+            <input type="number" v-model="spis[i]" placeholder="placeholder(i)" max="10" min="0">
         </div>
     </div>
     <hr v-if="totalScore">
@@ -32,3 +32,35 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'CPI',
+  data() {
+    return {
+    //   credits,
+      tweenedNumber: 0,
+      selectedSemester: 4,
+      selected: false,
+      selectedBranch: 'cse',
+      spis: [],
+    };
+  },
+  methods: {
+    selectedB() {
+      this.selected = !this.selected;
+    },
+  },
+
+};
+</script>
+<style lang="scss">
+
+.small {
+  justify-content: center;
+}
+.smaller {
+  background-position: 83% center !important;
+}
+
+</style>
