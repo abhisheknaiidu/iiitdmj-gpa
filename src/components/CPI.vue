@@ -17,7 +17,7 @@
     <div class="semester">
         <label>Semesters Done 🎉</label>
         <select v-model.number="selectedSemester" class="smaller">
-        <option v-for="i in 8" :value="i" :key="i">{{i}} Completed</option>
+        <option v-for="i in 4" :value="i" :key="i">{{i}} Completed</option>
         </select>
         </div>
     </div>
@@ -28,9 +28,9 @@
                    :placeholder="textfield(i)" max="10" min="0">
         </div>
     </div>
-    <hr v-if="totalScore">
-    <div class="result" v-if="totalScore">
-    <h3>{{}}<span class="outta" v-if="totalScore">/10</span></h3>
+    <hr v-if="totalCPI">
+    <div class="result" v-if="totalCPI">
+    <h3>{{totalCPI}}<span class="outof" v-if="totalCPI">/10</span></h3>
     </div>
   </div>
 </template>
@@ -53,8 +53,37 @@ export default {
     textfield(i) {
       return `SPI of Semester ${i}`;
     },
+    getSemCredit(sem) {
+      let branch = 0;
+      if (this.selectedBranch === 'ece') {
+        branch = 1;
+      } else if (this.selectedBranch === 'me') {
+        branch = 2;
+      }
+      // eslint-disable-next-line
+      return parseInt(credits[`sem${sem}`][branch]);
+    },
+    calc(num) {
+      let numstr = num.toString();
+      numstr = numstr.slice(0, numstr.indexOf('.') + 3);
+      return Number(numstr);
+    },
   },
   computed: {
+    // test() {
+    //   return this.getSemCredit(3);
+    // },
+    totalCPI() {
+      let totalCredits = 0;
+      let obtainedCredits = 0;
+      this.spis.forEach((value, index) => {
+        totalCredits += this.getSemCredit(index);
+        obtainedCredits += this.getSemCredit(index) * value;
+      });
+      const cpi = obtainedCredits / totalCredits;
+
+      return this.calc(cpi);
+    },
   },
   watch: {
     selectedSemester() {

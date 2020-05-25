@@ -25,14 +25,6 @@ export default {
     return {
     };
   },
-  mounted() {
-    const tweenMax = document.createElement('script');
-    tweenMax.setAttribute(
-      'src',
-      'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenLite.min.js',
-    );
-    document.head.appendChild(tweenMax);
-  },
 };
 
 </script>
