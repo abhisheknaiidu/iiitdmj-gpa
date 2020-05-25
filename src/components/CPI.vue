@@ -3,14 +3,14 @@
       <div class="nav">
         <div class="branch">
         <label>Branch</label>
-        <button @click="selected='!selectedB',selectedBranch='cse'"
-                :class="[selected ? 'active' : '']" > CSE
+        <button @click="selectedBranch='cse'"
+                :class="{active: selectedBranch === 'cse' }" > CSE
         </button>
-        <button @click="selected='!selectedB',selectedBranch='ece'"
-                :class="[selected ? 'active' : '']"> ECE
+        <button @click="selectedBranch='ece'"
+                :class="{active: selectedBranch === 'ece' }"> ECE
         </button>
-        <button @click="selected='!selectedB',selectedBranch='me'"
-                :class="[selected ? 'active' : '']"> ME
+        <button @click="selectedBranch='me'"
+                :class="{active: selectedBranch === 'me' }"> ME
         </button>
         </div>
     <div class="semester">
@@ -41,15 +41,11 @@ export default {
     //   credits,
       tweenedNumber: 0,
       selectedSemester: 4,
-      selected: false,
       selectedBranch: 'cse',
       spis: [],
     };
   },
   methods: {
-    selectedB() {
-      this.selected = !this.selected;
-    },
   },
 
 };
