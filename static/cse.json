@@ -1,0 +1,115 @@
+[
+	[
+		{
+			"courseCode": "NS101",
+			"courseName": "Mathematics-I",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "NS102",
+			"courseName": "Engineering Mechanics",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "HS101",
+			"courseName": "Effective Communication Skills",
+			"courseCredits": 2
+		},
+		{
+			"courseCode": "ES101",
+			"courseName": "Fundamental of Electrical & Electronics Engg",
+			"courseCredits": 5
+		},
+		{
+			"courseCode": "ES102",
+			"courseName": "Fundamental of Computing",
+			"courseCredits": 4
+		}
+	],
+	[
+		{
+			"courseCode": "NS103",
+			"courseName": "Mathematics-II",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "NS104",
+			"courseName": "Electrodynamics and Optics",
+			"courseCredits": 5
+		},
+		{
+			"courseCode": "HS102",
+			"courseName": "Culture and Human Values",
+			"courseCredits": 2
+		},
+		{
+			"courseCode": "DS101",
+			"courseName": "Engineering Graphics",
+			"courseCredits": 3
+		},
+		{
+			"courseCode": "ES103",
+			"courseName": "Data Structure and Algorithm",
+			"courseCredits": 5
+		}
+	],
+	[
+		{
+			"courseCode": "ES204",
+			"courseName": "Digital ELectronics",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "MN201",
+			"courseName": "Manufacturing Process",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS201",
+			"courseName": "DBMS",
+			"courseCredits": 5
+		},
+		{
+			"courseCode": "CS202",
+			"courseName": "OOP's with Java",
+			"courseCredits": 2
+		},
+		{
+			"courseCode": "NS205",
+			"courseName": "Elective",
+			"courseCredits": 4
+		}
+	],
+	[
+		{
+			"courseCode": "ES205",
+			"courseName": "Fundamentals of Robotics",
+			"courseCredits": 5
+		},
+		{
+			"courseCode": "MS201",
+			"courseName": "Management Concepts and Technology",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS203",
+			"courseName": "Computer Organization and Architecture",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS204",
+			"courseName": "Design and Analysis of Algorithms",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS205",
+			"courseName": "Data Communication",
+			"courseCredits": 2
+        },
+        {
+            "courseCode": "CS206",
+            "courseName": "Lab Based Project",
+            "courseCredits": 2
+        }
+	]
+]
