@@ -1,8 +1,9 @@
+/* eslint-disable */
 <template>
   <div>
       <div class="nav">
         <div class="branch">
-        <label>Branch</label>
+        <label>Branch 📚</label>
         <button @click="selectedBranch='cse'"
                 :class="{active: selectedBranch === 'cse' }" > CSE
         </button>
@@ -14,31 +15,34 @@
         </button>
         </div>
     <div class="semester">
-        <label>Semesters Completed</label>
+        <label>Semesters Done 🎉</label>
         <select v-model.number="selectedSemester" class="smaller">
-        <option v-for="i in 8" :value="i" :key="i">{{i}} Done</option>
+        <option v-for="i in 8" :value="i" :key="i">{{i}} Completed</option>
         </select>
         </div>
     </div>
     <div class="course-list">
         <div class="courseitem small" v-for="i in selectedSemester" :key="i">
             <p>Semester {{i}}</p>
-            <input type="number" v-model="spis[i]" placeholder="placeholder(i)" max="10" min="0">
+            <input type="number" step=0.1 v-model="spis[i]"
+                   :placeholder="textfield(i)" max="10" min="0">
         </div>
     </div>
     <hr v-if="totalScore">
-    <div class="verdict" v-if="totalScore">
-    <h3>{{animatedResult}}<span class="outta" v-if="totalScore">/10</span></h3>
+    <div class="result" v-if="totalScore">
+    <h3>{{}}<span class="outta" v-if="totalScore">/10</span></h3>
     </div>
   </div>
 </template>
 
 <script>
+import credits from '../../static/credits.json';
+
 export default {
   name: 'CPI',
   data() {
     return {
-    //   credits,
+      credits,
       tweenedNumber: 0,
       selectedSemester: 4,
       selectedBranch: 'cse',
@@ -46,17 +50,21 @@ export default {
     };
   },
   methods: {
+    textfield(i) {
+      return `SPI of Semester ${i}`;
+    },
   },
-
+  computed: {
+  },
+  watch: {
+    selectedSemester() {
+      this.spis = [];
+    },
+  },
 };
-</script>
-<style lang="scss">
 
-.small {
-  justify-content: center;
-}
-.smaller {
-  background-position: 83% center !important;
-}
+</script>
+<style scoped lang="scss">
+
 
 </style>
