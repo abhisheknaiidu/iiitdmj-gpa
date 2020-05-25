@@ -28,10 +28,10 @@
         </td>
     </tr>
     </table>
-    <hr v-if="totalCPI">
-    <div class="result" v-if="totalCPI">
+    <hr v-if="totalSPI">
+    <div class="result" v-if="totalSPI">
     <h4>{{showMessage}}</h4>
-    <h3>{{totalCPI}}<span class="outof" v-if="totalCPI">/10</span></h3>
+    <h3>{{totalSPI}}<span class="outof" v-if="totalSPI">/10</span></h3>
     </div>
   </div>
 </template>
@@ -49,7 +49,6 @@ export default {
       selectedSemester: 0,
       courseCredits: [],
       courseGrades: [],
-      tweenedNumber: 0,
     };
   },
   methods: {
@@ -89,6 +88,11 @@ export default {
           return 0;
       }
     },
+    calc(num) {
+      let numstr = num.toString();
+      numstr = numstr.slice(0, numstr.indexOf('.') + 4);
+      return Number(numstr);
+    },
   },
   computed: {
     course() {
@@ -101,9 +105,6 @@ export default {
       });
       return this.courseCredits;
     },
-    // test() {
-    //   return course.courseCredits;
-    // },
     semTotal() {
       let score = 0;
       this.courseGrades.forEach((el, index) => {
@@ -111,6 +112,17 @@ export default {
         score += grade * this.courseCredits[index];
       });
       return score;
+    },
+    totalCredits() {
+      let totalCredits = 0;
+      this.courseCredits.forEach((el) => {
+        totalCredits += el;
+      });
+      return totalCredits;
+    },
+    totalSPI() {
+      const spi = this.semTotal / this.totalCredits;
+      return spi === 0 ? null : this.calc(spi);
     },
   },
   watch: {

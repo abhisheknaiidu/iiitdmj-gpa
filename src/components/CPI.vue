@@ -43,7 +43,6 @@ export default {
   data() {
     return {
       credits,
-      tweenedNumber: 0,
       selectedSemester: 4,
       selectedBranch: 'cse',
       spis: [],
@@ -65,7 +64,7 @@ export default {
     },
     calc(num) {
       let numstr = num.toString();
-      numstr = numstr.slice(0, numstr.indexOf('.') + 3);
+      numstr = numstr.slice(0, numstr.indexOf('.') + 4);
       return Number(numstr);
     },
   },
