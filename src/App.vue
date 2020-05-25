@@ -4,7 +4,9 @@
     <div class="content">
       <h1>ABHISHEK</h1>
       <div class="main">
-
+        <div class="cpibox">
+        <CPI/>
+      </div>
     </div>
     </div>
     <footer><a href="https://github.com/abhisheknaiidu/gradecalc">Hacked by </a> <a href="https://github.com/abhisheknaiidu/">  abhisheknaiidu 😷 </a></footer>
@@ -12,6 +14,26 @@
 </template>
 
 <script>
+import CPI from '@/components/CPI.vue';
+
+export default {
+  name: 'App',
+  components: {
+    CPI,
+  },
+  data() {
+    return {
+    };
+  },
+  mounted() {
+    const tweenMax = document.createElement('script');
+    tweenMax.setAttribute(
+      'src',
+      'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenLite.min.js',
+    );
+    document.head.appendChild(tweenMax);
+  },
+};
 
 </script>
 
