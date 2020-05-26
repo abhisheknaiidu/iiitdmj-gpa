@@ -30,7 +30,7 @@
     </table>
     <hr v-if="totalSPI">
     <div class="result" v-if="totalSPI">
-    <h4>{{showMessage}}</h4>
+    <h4>{{captions}}</h4>
     <h3>{{totalSPI}}<span class="outof" v-if="totalSPI">/10</span></h3>
     </div>
   </div>
@@ -104,6 +104,20 @@ export default {
         courseCredits.push(el.courseCredits);
       });
       return this.courseCredits;
+    },
+    captions() {
+      if (this.totalSPI <= 10 && this.totalSPI > 8.5) {
+        return 'Can expect to go to JAPAN 🇯🇵 🤓';
+      } if (this.totalSPI <= 8.5 && this.totalSPI > 7.8) {
+        return ' Macchaa! Rocked it 😎';
+      } if (this.totalSPI <= 7.8 && this.totalSPI > 7) {
+        return ' Cool, great score 🥂 ';
+      } if (this.totalSPI <= 7 && this.totalSPI > 6) {
+        return 'Needs to put extra effort 🔨';
+      } if (this.totalSPI <= 6) {
+        return 'Better Leave Engineering bro 😐';
+      }
+      return 'It Seems, you have entered the wrong value ❌';
     },
     semTotal() {
       let score = 0;

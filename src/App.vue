@@ -40,7 +40,7 @@ export default {
 
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 
 #app {
@@ -64,6 +64,8 @@ export default {
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
     h1 {
       font-family: 'Chelsea Market', cursive;
       font-size: 2rem;
