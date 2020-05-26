@@ -114,8 +114,9 @@ export default {
       return score;
     },
     totalCredits() {
+      const tCredits = this.computeCourseCredits;
       let totalCredits = 0;
-      this.courseCredits.forEach((el) => {
+      tCredits.forEach((el) => {
         totalCredits += el;
       });
       return totalCredits;
