@@ -30,8 +30,8 @@
     </table>
     <hr v-if="totalSPI">
     <div class="result" v-if="totalSPI">
-    <h4>{{captions}}</h4>
     <h3>{{totalSPI}}<span class="outof" v-if="totalSPI">/10</span></h3>
+    <h4>{{captions}}</h4>
     </div>
   </div>
 </template>

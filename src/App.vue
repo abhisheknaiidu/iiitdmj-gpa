@@ -48,16 +48,6 @@ export default {
 
 #app {
   max-height: 100%;
-  .background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    max-width: 100%;
-    z-index: -999;
-    img{
-      width: 100%;
-    }
   }
   html {
     font-size: 100%;
@@ -67,9 +57,6 @@ export default {
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: 100px;
     h1 {
       font-family: 'Chelsea Market', cursive;
       font-size: 2rem;
@@ -85,7 +72,6 @@ export default {
     h2 {
       font-family: 'Chelsea Market', cursive;
       color: #93a1a1;
-      text-align: center;
       text-align: center;
       font-size: 1.125rem;
       margin: 0.75rem 0 3rem 0;
@@ -142,5 +128,18 @@ export default {
       color: #a19d9d !important;
     }
   }
-}
+  @media screen and (max-width: 767px) {
+    .content {
+      padding: 3%;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .content {
+      padding: 6% 25% 0 25%;
+    }
+    .content {
+      min-width: 600px;
+    }
+  }
+
 </style>

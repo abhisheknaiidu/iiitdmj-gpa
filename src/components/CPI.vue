@@ -99,5 +99,4 @@ export default {
 .center {
   justify-content: center;
 }
-
 </style>

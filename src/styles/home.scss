@@ -184,3 +184,26 @@ html {
       }
     }
   }
+
+  @media screen and (max-width: 767px) {
+    .nav {
+        flex-direction: column;
+        top: -84px;
+        padding: .5px;
+    }
+    .course-list {
+      word-break: break-word;
+    }
+    .nav .branch {
+        padding: 10px;
+    }
+    .result {
+        flex-direction: column;
+    }
+    .result h4 {
+        font-size: 1rem;
+    }
+    .result h3 {
+        font-size: 2rem;
+    }
+  }
