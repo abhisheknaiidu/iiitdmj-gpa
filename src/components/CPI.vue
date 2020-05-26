@@ -31,6 +31,7 @@
     <hr v-if="totalCPI">
     <div class="result" v-if="totalCPI">
     <h3>{{totalCPI}}<span class="outof" v-if="totalCPI">/10</span></h3>
+    <h4>{{captions}}</h4>
     </div>
   </div>
 </template>
@@ -69,6 +70,20 @@ export default {
     },
   },
   computed: {
+    captions() {
+      if (this.totalCPI <= 10 && this.totalCPI > 8.5) {
+        return 'Can expect to go to JAPAN 🇯🇵 🤓';
+      } if (this.totalCPI <= 8.5 && this.totalCPI > 7.8) {
+        return ' Macchaa! Rocked it 😎';
+      } if (this.totalCPI <= 7.8 && this.totalCPI > 7) {
+        return ' Cool, great score 🥂 ';
+      } if (this.totalCPI <= 7 && this.totalCPI > 6) {
+        return 'Needs to put extra effort 🔨';
+      } if (this.totalCPI <= 6) {
+        return 'Padh lo thoda bro 😐';
+      }
+      return 'It Seems, you have entered the wrong value ❌';
+    },
     // test() {
     //   return this.getSemCredit(3);
     // },
