@@ -2,7 +2,7 @@
   <div>
     <div class="nav">
         <div class="branch">
-        <label>Branch</label>
+        <label>Branch 📚</label>
         <button @click="selectedBranch='cse'"
                 :class="{active: selectedBranch === 'cse' }" > CSE
         </button>
@@ -14,15 +14,15 @@
         </button>
         </div>
     <div class="semester">
-        <label>Semester</label>
+        <label>Semester 🎉</label>
         <select v-model.number="selectedSemester">
-        <option v-for="i in 4" :value="i-1" :key="i">Semester {{i}}</option>
+        <option v-for="i in 4" :value="i-1" :key="i">Semester {{i}} </option>
         </select>
         </div>
     </div>
     <table class="course-list">
     <tr v-for="(course,index) in course[selectedSemester]" :key="course.id" class="course">
-      <td class="name">{{course.courseName}}</td>
+      <td class="name"> {{course.courseCode}} {{course.courseName}}</td>
         <td>
           <input type="text" placeholder="Course Grade" v-model="courseGrades[index]" >
         </td>

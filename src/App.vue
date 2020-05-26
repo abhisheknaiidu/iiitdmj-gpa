@@ -2,11 +2,14 @@
   <div id="app">
     <div class="background"><img src=""></div>
     <div class="content">
-      <h1>ABHISHEK</h1>
+      <h1>IIITDMJ GPA Calculator</h1>
       <div class="main">
       <div class="selection">
-          <button @click="spi=true" :class="[spi ? 'active' : '']" >Semester GPA</button>
-          <button @click="spi=false" :class="[spi ? '' : 'active']">Cumulative GPA
+          <button @click="spi=true" :class="[spi ? 'active' : '']" >
+            Semester Performance Index (SPI)
+          </button>
+          <button @click="spi=false" :class="[spi ? '' : 'active']">
+            Cumulative Performance Index (CPI)
           </button>
       </div>
       <div class="spibox" v-if="spi">
@@ -17,7 +20,7 @@
       </div>
     </div>
     </div>
-    <footer><a href="https://github.com/abhisheknaiidu/gradecalc">Hacked by </a> <a href="https://github.com/abhisheknaiidu/">  abhisheknaiidu 😷 </a></footer>
+    <footer><a href="https://github.com/abhisheknaiidu/gradecalc">Made with 💕 by </a> <a href="https://github.com/abhisheknaiidu/">  abhisheknaiidu 😷 </a></footer>
   </div>
 </template>
 
@@ -66,6 +69,7 @@ export default {
     margin-bottom: 100px;
     margin-left: 400px;
     margin-right: 400px;
+    margin-top: 100px;
     h1 {
       font-family: 'Chelsea Market', cursive;
       font-size: 2rem;
