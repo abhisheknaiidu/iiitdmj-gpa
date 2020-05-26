@@ -4,19 +4,19 @@
         <div class="branch">
         <label>Branch 📚</label>
         <button @click="selectedBranch='cse'"
-                :class="{active: selectedBranch === 'cse' }" > CSE
+                :class="{active: selectedBranch === 'cse' }" > CSE 💻
         </button>
         <button @click="selectedBranch='ece'"
-                :class="{active: selectedBranch === 'ece' }"> ECE
+                :class="{active: selectedBranch === 'ece' }"> ECE 💡
         </button>
         <button @click="selectedBranch='me'"
-                :class="{active: selectedBranch === 'me' }"> ME
+                :class="{active: selectedBranch === 'me' }"> ME 🤖
         </button>
         </div>
     <div class="semester">
         <label>Semester 🎉</label>
         <select v-model.number="selectedSemester">
-        <option v-for="i in 4" :value="i-1" :key="i">Semester {{i}} </option>
+        <option v-for="i in 4" :value="i-1" :key="i">Semester {{i}} 👉🏾 </option>
         </select>
         </div>
     </div>
@@ -115,7 +115,7 @@ export default {
       } if (this.totalSPI <= 7 && this.totalSPI > 6) {
         return 'Needs to put extra effort 🔨';
       } if (this.totalSPI <= 6) {
-        return 'Better Leave Engineering bro 😐';
+        return 'Padh lo thoda bro 😐';
       }
       return 'It Seems, you have entered the wrong value ❌';
     },

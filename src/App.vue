@@ -116,10 +116,11 @@ export default {
   footer {
     padding: 1rem 0;
     text-align: center;
-    background: #f9f9f9;
     position: fixed;
     width: 100%;
-    z-index: -999;
+    background-image:
+    repeating-linear-gradient(-45deg, #1b1d1f 0px,#1b1d1f 40px, #252729 40px, #252729 42px);
+    z-index: 999;
     bottom: 0;
     a {
       text-decoration: none;

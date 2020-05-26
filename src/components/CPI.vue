@@ -5,19 +5,19 @@
         <div class="branch">
         <label>Branch 📚</label>
         <button @click="selectedBranch='cse'"
-                :class="{active: selectedBranch === 'cse' }" > CSE
+                :class="{active: selectedBranch === 'cse' }" > CSE 💻
         </button>
         <button @click="selectedBranch='ece'"
-                :class="{active: selectedBranch === 'ece' }"> ECE
+                :class="{active: selectedBranch === 'ece' }"> ECE 💡
         </button>
         <button @click="selectedBranch='me'"
-                :class="{active: selectedBranch === 'me' }"> ME
+                :class="{active: selectedBranch === 'me' }"> ME 🤖
         </button>
         </div>
     <div class="semester">
         <label>Semesters Done 🎉</label>
         <select v-model.number="selectedSemester" class="smaller">
-        <option v-for="i in 4" :value="i" :key="i">{{i}} Completed</option>
+        <option v-for="i in 4" :value="i" :key="i">{{i}} Completed 🔥</option>
         </select>
         </div>
     </div>

@@ -188,7 +188,7 @@ html {
   @media screen and (max-width: 767px) {
     .nav {
         flex-direction: column;
-        top: -84px;
+        top: -90px;
         padding: .5px;
     }
     .course-list {
@@ -205,5 +205,8 @@ html {
     }
     .result h3 {
         font-size: 2rem;
+    }
+    .nav .semester select {
+        border-radius: 10px;
     }
   }
