@@ -118,11 +118,11 @@ export default {
         }
       }
       .active {
-        border-bottom: 1px solid #2d85fd;
+        border-bottom: 2px solid #A31022;
         font-family: 'Chelsea Market', cursive;
         font-weight: 700;
         font-size: 0.875rem;
-        color: #2d85fd;
+        color: #A31022;
         letter-spacing: 0.5px;
       }
     }

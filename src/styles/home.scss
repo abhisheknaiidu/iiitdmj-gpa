@@ -51,7 +51,7 @@ html {
       font-family: 'Chelsea Market', cursive;
       font-weight: 700;
       font-size: 4rem;
-      color: #2e86fe;
+      color: #A31022;
       .outof {
         font-family: 'Chelsea Market', cursive;
         font-size: 1rem;
@@ -71,7 +71,7 @@ html {
       font-family: 'Chelsea Market', cursive;
       font-size: 1rem;
       line-height: 1.5rem;
-      color: #606060;
+      color:  #93a1a1;
     }
     input {
       margin: 0 0.5rem;
@@ -80,12 +80,12 @@ html {
       font-family: 'Chelsea Market', cursive;
       font-weight: 700;
       font-size: 0.75rem;
-      color: #606060;
+      color:  #93a1a1;
       border: 1px solid #ececec;
       border-radius: 3px;
       text-align: center;
       &:focus {
-        border: 1px solid #2d85fd;
+        border: 1px solid black;
         outline: none;
       }
     }
@@ -125,7 +125,7 @@ html {
       font-family: 'Chelsea Market', cursive;
       font-weight: 600;
       font-size: 1rem;
-      color: #606060;
+      color: #93a1a1;
     }
     background-color: #f9f9f9;
     .branch {
@@ -152,8 +152,8 @@ html {
         }
       }
       .active {
-        background-color: #2d85fd;
-        color: #fff;
+        background-image: linear-gradient( 109.6deg,  rgba(253,199,141,1) 11.3%, rgba(249,143,253,1) 100.2% );
+        color: black;
         font-family: 'Chelsea Market', cursive;
         font-weight: 700;
         letter-spacing: 1px;
@@ -168,8 +168,8 @@ html {
         font-size: 0.75rem;
         font-family: 'Chelsea Market', cursive;
         font-weight: 700;
-        color: #2d85fd;
-        background-color: #fff;
+        color: black;
+        background-image: linear-gradient( 109.6deg,  rgba(253,199,141,1) 11.3%, rgba(249,143,253,1) 100.2% );
         padding: 0.5rem 1.5rem;
         border: 1px solid #ececec;
         border-radius: 100px;
