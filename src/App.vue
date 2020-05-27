@@ -2,7 +2,7 @@
   <div id="app">
     <div class="background"><img src=""></div>
     <div class="content">
-      <h1>IIITDMJ GPA Calculator</h1>
+      <h1>IIITDMJ GPA Calculator Cum Calculator</h1>
       <div class="main">
       <div class="selection">
           <button @click="spi=true" :class="[spi ? 'active' : '']" >
