@@ -17,7 +17,7 @@
     <div class="semester">
         <label>Semesters Done 🎉</label>
         <select v-model.number="selectedSemester" class="smaller">
-        <option v-for="i in 4" :value="i" :key="i">{{i}} Completed 🔥</option>
+        <option v-for="i in 8" :value="i" :key="i">{{i}} Completed 🔥</option>
         </select>
         </div>
     </div>

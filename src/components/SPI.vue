@@ -16,7 +16,7 @@
     <div class="semester">
         <label>Semester 🎉</label>
         <select v-model.number="selectedSemester">
-        <option v-for="i in 4" :value="i-1" :key="i">Semester {{i}} 👉🏾 </option>
+        <option v-for="i in 8" :value="i-1" :key="i">Semester {{i}} 👉🏾 </option>
         </select>
         </div>
     </div>
@@ -40,6 +40,7 @@
 
 import cse from '../../static/cse.json';
 import ece from '../../static/ece.json';
+import me from '../../static/me.json';
 
 export default {
   name: 'SPI',
@@ -47,6 +48,7 @@ export default {
     return {
       cse,
       ece,
+      me,
       selectedBranch: 'cse',
       selectedSemester: 0,
       courseCredits: [],
@@ -147,7 +149,7 @@ export default {
       this.courseGrades = [];
       this.courseCredits = [];
     },
-    selectedCourse() {
+    selectedBranch() {
       this.courseGrades = [];
       this.courseCredits = [];
     },
