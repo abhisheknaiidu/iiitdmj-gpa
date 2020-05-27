@@ -20,6 +20,10 @@
       </div>
     </div>
     </div>
+    <div class="cui-embed" data-cui-uid="oWD33V"
+    data-cui-avatar="https://images.typeform.com/images/74GFgzxk2UPM"
+    data-cui-mode="pill" data-cui-pill-button-color="#E26D5A">
+    </div>
     <footer><a href="https://github.com/abhisheknaiidu/gradecalc">Made with 💕 by </a> <a href="https://github.com/abhisheknaiidu/">  abhisheknaiidu 😷 </a></footer>
   </div>
 </template>
@@ -118,9 +122,9 @@ export default {
     text-align: center;
     position: fixed;
     width: 100%;
-    background-image:
-    repeating-linear-gradient(-45deg, #1b1d1f 0px,#1b1d1f 40px, #252729 40px, #252729 42px);
-    z-index: 999;
+    // background-image:
+    // repeating-linear-gradient(-45deg, #1b1d1f 0px,#1b1d1f 40px, #252729 40px, #252729 42px);
+    z-index: -999;
     bottom: 0;
     a {
       text-decoration: none;
