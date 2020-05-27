@@ -39,12 +39,14 @@
 <script>
 
 import cse from '../../static/cse.json';
+import ece from '../../static/ece.json';
 
 export default {
   name: 'SPI',
   data() {
     return {
       cse,
+      ece,
       selectedBranch: 'cse',
       selectedSemester: 0,
       courseCredits: [],

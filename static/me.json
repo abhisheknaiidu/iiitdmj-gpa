@@ -1,0 +1,233 @@
+[
+	[
+		{
+			"courseCode": "NS101",
+			"courseName": "Mathematics-I",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "NS102",
+			"courseName": "Engineering Mechanics",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "HS101",
+			"courseName": "Effective Communication Skills",
+			"courseCredits": 2
+		},
+		{
+			"courseCode": "ES101",
+			"courseName": "Fundamental of Electrical & Electronics Engg",
+			"courseCredits": 5
+		},
+		{
+			"courseCode": "ES102",
+			"courseName": "Fundamental of Computing",
+			"courseCredits": 4
+		}
+	],
+	[
+		{
+			"courseCode": "NS103",
+			"courseName": "Mathematics-II",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "NS104",
+			"courseName": "Electrodynamics and Optics",
+			"courseCredits": 5
+		},
+		{
+			"courseCode": "HS102",
+			"courseName": "Culture and Human Values",
+			"courseCredits": 2
+		},
+		{
+			"courseCode": "DS101",
+			"courseName": "Engineering Graphics",
+			"courseCredits": 3
+		},
+		{
+			"courseCode": "ES103",
+			"courseName": "Data Structure and Algorithm",
+			"courseCredits": 5
+		}
+	],
+	[
+		{
+			"courseCode": "ES204",
+			"courseName": "Digital ELectronics",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "MN201",
+			"courseName": "Manufacturing Process",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME201",
+			"courseName": "Kinematics and Dyanamics of Machines",
+			"courseCredits": 5
+		},
+		{
+			"courseCode": "ME202",
+			"courseName": "IT Workshop",
+			"courseCredits": 2
+		},
+		{
+			"courseCode": "NS205",
+			"courseName": "Elective",
+			"courseCredits": 4
+		}
+	],
+	[
+		{
+			"courseCode": "ES205",
+			"courseName": "Fundamentals of Robotics",
+			"courseCredits": 5
+		},
+		{
+			"courseCode": "MS201",
+			"courseName": "Management Concepts and Technology",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME203",
+			"courseName": "Thermodynamics",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME204",
+			"courseName": "Solid Mechanics",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME205",
+			"courseName": "Engineering Material",
+			"courseCredits": 2
+        },
+        {
+            "courseCode": "ME206",
+            "courseName": "Thermodynamics + Solid Mechanics",
+            "courseCredits": 2
+        }
+	],
+	[
+		{
+			"courseCode": "DS302",
+			"courseName": "Engineering Design",
+			"courseCredits": 5
+		},
+		{
+			"courseCode": "ME307",
+			"courseName": "Manufacturing Technology",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME308",
+			"courseName": "Fluid Mechanics",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME309",
+			"courseName": "Design of Mechanical Components",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME310",
+			"courseName": "Elective",
+			"courseCredits": 2
+        },
+        {
+            "courseCode": "ME331",
+            "courseName": "FM & ST",
+            "courseCredits": 2
+        }
+	],
+	[
+		{
+			"courseCode": "HS304",
+			"courseName": "Environmental Science",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME312",
+			"courseName": "HMT",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME313",
+			"courseName": "Elective 1",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME314",
+			"courseName": "Elective 2",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "HS303",
+			"courseName": "Open Elective",
+			"courseCredits": 4
+        },
+        {
+            "courseCode": "ME315",
+            "courseName": "Adv. Manufacturing + NCCNC",
+            "courseCredits": 2
+        }
+	],
+	[
+		{
+			"courseCode": "ES406",
+			"courseName": "Core Elective",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME416",
+			"courseName": "Elective 1",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME417",
+			"courseName": "Elective 2",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME418",
+			"courseName": "Elective 3",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "PR499",
+			"courseName": "Project",
+			"courseCredits": 4
+        }
+	],
+	[
+		{
+			"courseCode": " ",
+			"courseName": "Open Elective",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME419",
+			"courseName": "Elective 1",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME420",
+			"courseName": "Elective 2",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME421",
+			"courseName": "Elective 3",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "ME422",
+			"courseName": "Elective 4",
+			"courseCredits": 4
+        }
+	]
+]
