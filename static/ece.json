@@ -1,0 +1,233 @@
+[
+	[
+		{
+			"courseCode": "NS101",
+			"courseName": "Mathematics-I",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "NS102",
+			"courseName": "Engineering Mechanics",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "HS101",
+			"courseName": "Effective Communication Skills",
+			"courseCredits": 2
+		},
+		{
+			"courseCode": "ES101",
+			"courseName": "Fundamental of Electrical & Electronics Engg",
+			"courseCredits": 5
+		},
+		{
+			"courseCode": "ES102",
+			"courseName": "Fundamental of Computing",
+			"courseCredits": 4
+		}
+	],
+	[
+		{
+			"courseCode": "NS103",
+			"courseName": "Mathematics-II",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "NS104",
+			"courseName": "Electrodynamics and Optics",
+			"courseCredits": 5
+		},
+		{
+			"courseCode": "HS102",
+			"courseName": "Culture and Human Values",
+			"courseCredits": 2
+		},
+		{
+			"courseCode": "DS101",
+			"courseName": "Engineering Graphics",
+			"courseCredits": 3
+		},
+		{
+			"courseCode": "ES103",
+			"courseName": "Data Structure and Algorithm",
+			"courseCredits": 5
+		}
+	],
+	[
+		{
+			"courseCode": "ES204",
+			"courseName": "Digital ELectronics",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "MN201",
+			"courseName": "Manufacturing Process",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC201",
+			"courseName": "Electronics Devices and Circuits",
+			"courseCredits": 5
+		},
+		{
+			"courseCode": "EC202",
+			"courseName": "Instumentation and Measurement",
+			"courseCredits": 2
+		},
+		{
+			"courseCode": "NS205",
+			"courseName": "Elective",
+			"courseCredits": 4
+		}
+	],
+	[
+		{
+			"courseCode": "ES205",
+			"courseName": "Fundamentals of Robotics",
+			"courseCredits": 5
+		},
+		{
+			"courseCode": "MS201",
+			"courseName": "Management Concepts and Technology",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC203",
+			"courseName": "Network Analysis and synthesis",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC204",
+			"courseName": "Signals and Systems",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC205",
+			"courseName": "Microprocessor and interfacing",
+			"courseCredits": 2
+        },
+        {
+            "courseCode": "EC206",
+            "courseName": "Microprocessor + Electronics",
+            "courseCredits": 2
+        }
+	],
+	[
+		{
+			"courseCode": "DS302",
+			"courseName": "Engineering Design",
+			"courseCredits": 5
+		},
+		{
+			"courseCode": "EC307",
+			"courseName": "Fundamental of Electromagnetic Theory",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC308",
+			"courseName": "Control Systems",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC309",
+			"courseName": "Principle of Communication",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC310",
+			"courseName": "Elective",
+			"courseCredits": 2
+        },
+        {
+            "courseCode": "EC331",
+            "courseName": "Control systems + Communication",
+            "courseCredits": 2
+        }
+	],
+	[
+		{
+			"courseCode": "HS304",
+			"courseName": "Environmental Science",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC312",
+			"courseName": "Linear Integrated Circuit Design",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC313",
+			"courseName": "Elective 1",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC314",
+			"courseName": "Elective 2",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "HS303",
+			"courseName": "Open Elective",
+			"courseCredits": 4
+        },
+        {
+            "courseCode": "EC315",
+            "courseName": "DSP + Microwave",
+            "courseCredits": 2
+        }
+	],
+	[
+		{
+			"courseCode": "ES406",
+			"courseName": "Core Elective",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC416",
+			"courseName": "Elective 1",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC417",
+			"courseName": "Elective 2",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC418",
+			"courseName": "Elective 3",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "PR499",
+			"courseName": "Project",
+			"courseCredits": 4
+        }
+	],
+	[
+		{
+			"courseCode": " ",
+			"courseName": "Open Elective",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC419",
+			"courseName": "Elective 1",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC420",
+			"courseName": "Elective 2",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC421",
+			"courseName": "Elective 3",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "EC422",
+			"courseName": "Elective 4",
+			"courseCredits": 4
+        }
+	]
+]
