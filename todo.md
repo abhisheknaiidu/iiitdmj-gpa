@@ -26,9 +26,9 @@
 
 ## Extra
 
-* [] Add Error Validation
-* [] Add Courses of Design and MTech Students
-* [] Documentation 
+* [ ] Add Error Validation
+* [ ] Add Courses of Design and MTech Students
+* [ ] Documentation 
 
 
 
