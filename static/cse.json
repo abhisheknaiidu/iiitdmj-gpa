@@ -108,8 +108,126 @@
         },
         {
             "courseCode": "CS206",
-            "courseName": "Lab Based Project",
+            "courseName": "Lab Based Project 1",
             "courseCredits": 2
+        }
+	],
+	[
+		{
+			"courseCode": "DS302",
+			"courseName": "Engineering Design",
+			"courseCredits": 5
+		},
+		{
+			"courseCode": "CS307",
+			"courseName": "Computer Networks",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS308",
+			"courseName": "Operating System",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS309",
+			"courseName": "Language Theory",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS310",
+			"courseName": "Elective",
+			"courseCredits": 2
+        },
+        {
+            "courseCode": "CS331",
+            "courseName": "Lab Based Project 2",
+            "courseCredits": 2
+        }
+	],
+	[
+		{
+			"courseCode": "HS304",
+			"courseName": "Environmental Science",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS312",
+			"courseName": "Software Engineering",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS313",
+			"courseName": "Elective 1",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS314",
+			"courseName": "Elective 2",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "HS303",
+			"courseName": "Open Elective",
+			"courseCredits": 4
+        },
+        {
+            "courseCode": "CS315",
+            "courseName": "Lab Based Project 3",
+            "courseCredits": 2
+        }
+	],
+	[
+		{
+			"courseCode": "ES406",
+			"courseName": "Core Elective",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS416",
+			"courseName": "Elective 1",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS417",
+			"courseName": "Elective 2",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS418",
+			"courseName": "Elective 3",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "PR499",
+			"courseName": "Project",
+			"courseCredits": 4
+        }
+	],
+	[
+		{
+			"courseCode": " ",
+			"courseName": "Open Elective",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS419",
+			"courseName": "Elective 1",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS420",
+			"courseName": "Elective 2",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS421",
+			"courseName": "Elective 3",
+			"courseCredits": 4
+		},
+		{
+			"courseCode": "CS422",
+			"courseName": "Elective 4",
+			"courseCredits": 4
         }
 	]
 ]
