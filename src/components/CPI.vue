@@ -108,10 +108,10 @@ export default {
 
 </script>
 <style scoped lang="scss">
-
 @import '../styles/home.scss';
 
 .center {
   justify-content: center;
 }
+
 </style>
