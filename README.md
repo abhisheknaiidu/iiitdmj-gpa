@@ -1,6 +1,6 @@
 # IIITDMJ-GPA
 
-### A Simple Web App for IIITDMJ Students, Which helps them to calculate SPI and CPI.
+### A Simple Web App for IIITDMJ Students, Which helps them to calculate SPI and CPI. Additionally, a Quiz Bot also installed for Some Fun! 😉
 
 ### [IIITDMJ GPA CALCULATOR](https://iiitdmj-gpa.now.sh/)
 
@@ -14,14 +14,6 @@ $ npm install
 
 # Builds and serves assets with hot-reload
 $ npm run serve
-```
-
-### Docker setup
-
-Alternatively, you can use Docker to build and run the application. You just have to run:
-
-``` bash
-$ docker-compose up
 ```
 
 You should now have the application running and accessible at http://localhost:8080.
