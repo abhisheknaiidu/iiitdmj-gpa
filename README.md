@@ -1,34 +1,34 @@
-# gradecalc
+# IIITDMJ-GPA
 
-## Project setup
-```
-npm install
-```
+### A Simple Web App for IIITDMJ Students, Which helps them to calculate SPI and CPI.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### [IIITDMJ GPA CALCULATOR](https://iiitdmj-gpa.now.sh/)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Getting Started
 
-### Run your unit tests
-```
-npm run test:unit
+Run the following commands in order to have the code up and running on your machine:
+
+``` bash
+# installs dependencies
+$ npm install
+
+# Builds and serves assets with hot-reload
+$ npm run serve
 ```
 
-### Run your end-to-end tests
-```
-npm run test:e2e
+### Docker setup
+
+Alternatively, you can use Docker to build and run the application. You just have to run:
+
+``` bash
+$ docker-compose up
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+You should now have the application running and accessible at http://localhost:8080.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Running tests
+
+You can run the tests by executing:
+``` bash
+npm run test
+```
