@@ -87,12 +87,14 @@
     .content {
       padding: 3%;
     }
+    .content h1 {
+      font-size: 1.5rem;
+      padding-bottom: 8px;
+    }
   }
   @media screen and (min-width: 768px) {
     .content {
       padding: 6% 25% 0 25%;
-    }
-    .content {
       min-width: 600px;
     }
   }
