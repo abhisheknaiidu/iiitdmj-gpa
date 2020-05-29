@@ -20,6 +20,8 @@
 * [x] Add Quiz Bot
 * [x] Build and Host it to surge.
 * [x] Make Repo OpenSource
+* [x] Added Neon to header
+
 
 
 
@@ -29,6 +31,8 @@
 * [ ] Add Error Validation
 * [ ] Add Courses of Design and MTech Students
 * [ ] Documentation 
+* [ ] Add Unit Tests 
+
 
 
 
