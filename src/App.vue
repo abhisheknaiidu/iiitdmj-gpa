@@ -24,7 +24,7 @@
     data-cui-avatar="https://images.typeform.com/images/74GFgzxk2UPM"
     data-cui-mode="pill" data-cui-pill-button-color="#E26D5A">
     </div>
-    <footer><a href="https://github.com/abhisheknaiidu/gradecalc" target="_blank">Made with 💕 by </a> <a href="https://github.com/abhisheknaiidu/" target="_blank">  abhisheknaiidu 😷 </a></footer>
+    <footer><a href="https://github.com/abhisheknaiidu/gradecalc" target="_blank">Made with 💕 by </a> <a href="https://abhisheknaidu.tech/" target="_blank">  abhisheknaiidu 😷 </a></footer>
   </div>
 </template>
 
