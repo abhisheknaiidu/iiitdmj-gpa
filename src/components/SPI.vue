@@ -136,11 +136,11 @@ export default {
       tCredits = this.computeCourseCredits;
       this.courseGrades.forEach((el, index) => {
         const grade = this.getScore(el);
-        if (grade != 0) {
+        if (grade !== 0) {
           totalCredits += tCredits[index];
         }
         score += grade * this.courseCredits[index];
-        estimated = score / totalCredits
+        estimated = score / totalCredits;
       });
       return estimated;
     },
