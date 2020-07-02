@@ -28,6 +28,7 @@
         </td>
     </tr>
     </table>
+    <h6 class='ss'> <span class="note">Note :</span> Now you can also opt for SS Grade 😉     </h6>
     <hr v-if="totalSPI">
     <div class="result" v-if="totalSPI">
     <h3>{{totalSPI}}<span class="outof" v-if="totalSPI">/10</span></h3>
@@ -88,6 +89,10 @@ export default {
         case 'F':
         case 'f':
           return 2;
+        case 'SS':
+          return 0;
+        case 'ss':
+          return 0;
         default:
           return 0;
       }
@@ -125,22 +130,30 @@ export default {
     },
     semTotal() {
       let score = 0;
+      let tCredits = 0;
+      let totalCredits = 0;
+      let estimated = 0;
+      tCredits = this.computeCourseCredits;
       this.courseGrades.forEach((el, index) => {
         const grade = this.getScore(el);
+        if (grade != 0) {
+          totalCredits += tCredits[index];
+        }
         score += grade * this.courseCredits[index];
+        estimated = score / totalCredits
       });
-      return score;
+      return estimated;
     },
-    totalCredits() {
-      const tCredits = this.computeCourseCredits;
-      let totalCredits = 0;
-      tCredits.forEach((el) => {
-        totalCredits += el;
-      });
-      return totalCredits;
-    },
+    // totalCredits() {
+    //   const tCredits = this.computeCourseCredits;
+    //   let totalCredits = 0;
+    //   tCredits.forEach((el) => {
+    //     totalCredits += el;
+    //   });
+    //   return totalCredits;
+    // },
     totalSPI() {
-      const spi = this.semTotal / this.totalCredits;
+      const spi = this.semTotal;
       return spi === 0 ? null : this.calc(spi);
     },
   },

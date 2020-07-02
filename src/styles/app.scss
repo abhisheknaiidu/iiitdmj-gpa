@@ -10,6 +10,7 @@
   .content {
     display: flex;
     flex-direction: column;
+    margin-top: 0;
     margin-bottom: 100px;
     h1 {
       font-family: 'Chelsea Market', cursive;
@@ -17,6 +18,8 @@
       color: #93a1a1;
       font-weight: 700;
       text-align: center;
+      margin-top: 0;
+      margin-bottom: 42px;;
     }
     .main {
       background: #ffffff;
@@ -89,7 +92,7 @@
     }
     .content h1 {
       font-size: 1.5rem;
-      padding-bottom: 8px;
+      // padding-bottom: 8px;
     }
   }
   @media screen and (min-width: 768px) {

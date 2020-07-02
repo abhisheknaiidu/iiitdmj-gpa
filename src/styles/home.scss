@@ -52,6 +52,8 @@ html {
       font-weight: 700;
       font-size: 4rem;
       color: #A31022;
+      margin-top: 0;
+      margin-bottom: 0;
       .outof {
         font-family: 'Chelsea Market', cursive;
         font-size: 1rem;
@@ -117,7 +119,7 @@ html {
   }
   .nav {
     position: relative;
-    top: -44px;
+    top:-64px;
     border-radius: 4px 4px 0 0;
     padding: 1.5rem;
     label {
@@ -185,7 +187,27 @@ html {
     }
   }
 
+  .note {
+    color: #A31022;
+  }
+  h6 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 1rem;
+    margin-left: 20px;
+    color: #a6a6a6;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+
   @media screen and (max-width: 767px) {
+    h6 {
+      font-family: 'Chelsea Market', cursive;
+      font-size: 0.8rem;
+      margin-left: 20px;
+      color: #a6a6a6;
+      margin-top: 0;
+      margin-bottom: 9px;
+    }
     .nav {
         flex-direction: column;
         top: -90px;
@@ -202,9 +224,11 @@ html {
     }
     .result h4 {
         font-size: 1rem;
+        margin-top: 0;
+        margin-bottom: 13px;
     }
     .result h3 {
-        font-size: 2rem;
+        font-size: 3.8rem;
     }
     .nav .semester select {
         border-radius: 10px;
