@@ -13,7 +13,7 @@ Run the following commands in order to have the code up and running on your mach
 $ npm install
 
 # Builds and serves assets with hot-reload
-$ npm run serve
+$ npm run dev
 ```
 
 You should now have the application running and accessible at http://localhost:8080.
