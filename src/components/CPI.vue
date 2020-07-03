@@ -30,7 +30,7 @@
     </div>
     <hr v-if="totalCPI">
     <div class="result" v-if="totalCPI">
-    <h3>{{totalCPI}}<span class="outof" v-if="totalCPI">/10</span></h3>
+    <h3>{{tweenCPI}}<span class="outof" v-if="totalCPI">/10</span></h3>
     <h4>{{captions}}</h4>
     </div>
   </div>
@@ -47,6 +47,7 @@ export default {
       selectedSemester: 4,
       selectedBranch: 'cse',
       spis: [],
+      tweenedNumber: 0,
     };
   },
   methods: {
@@ -87,6 +88,9 @@ export default {
     // test() {
     //   return this.getSemCredit(3);
     // },
+    tweenCPI() {
+      return this.tweenedNumber.toFixed(1);
+    },
     totalCPI() {
       let totalCredits = 0;
       let obtainedCredits = 0;
@@ -102,6 +106,9 @@ export default {
   watch: {
     selectedSemester() {
       this.spis = [];
+    },
+    totalCPI(newValue) {
+      window.TweenLite.to(this.$data, 0.8, { tweenedNumber: newValue });
     },
   },
 };
