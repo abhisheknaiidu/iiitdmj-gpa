@@ -31,7 +31,7 @@
     <h6 class='ss'> <span class="note">Note :</span> Now you can also opt for SS Grade 😉     </h6>
     <hr v-if="totalSPI">
     <div class="result" v-if="totalSPI">
-    <h3>{{totalSPI}}<span class="outof" v-if="totalSPI">/10</span></h3>
+    <h3>{{tweenSPI}}<span class="outof" v-if="totalSPI">/10</span></h3>
     <h4>{{captions}}</h4>
     </div>
   </div>
@@ -54,6 +54,7 @@ export default {
       selectedSemester: 0,
       courseCredits: [],
       courseGrades: [],
+      tweenedNumber: 0,
     };
   },
   methods: {
@@ -144,6 +145,9 @@ export default {
       });
       return estimated;
     },
+    tweenSPI() {
+      return this.tweenedNumber.toFixed(1);
+    },
     // totalCredits() {
     //   const tCredits = this.computeCourseCredits;
     //   let totalCredits = 0;
@@ -165,6 +169,9 @@ export default {
     selectedBranch() {
       this.courseGrades = [];
       this.courseCredits = [];
+    },
+    totalSPI(newValue) {
+      window.TweenLite.to(this.$data, 1.8, { tweenedNumber: newValue });
     },
   },
 };
