@@ -119,7 +119,7 @@ export default {
       if (this.totalSPI <= 10 && this.totalSPI > 8.5) {
         return 'Can expect to go to JAPAN 🇯🇵 🤓';
       } if (this.totalSPI <= 8.5 && this.totalSPI > 7.8) {
-        return ' Macchaa! Rocked it 😎';
+        return ' Machaa, Rocked it 😎';
       } if (this.totalSPI <= 7.8 && this.totalSPI > 7) {
         return ' Cool, great score 🥂 ';
       } if (this.totalSPI <= 7 && this.totalSPI > 6) {
