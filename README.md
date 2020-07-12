@@ -1,5 +1,6 @@
-# IIITDMJ-GPA
+# IIITDMJ-GPA    
 
+![](https://visitor-badge.glitch.me/badge?page_id=abhisheknaiidu.IIITDMJ-GPA)
 ### A Simple Web App for IIITDMJ Students, Which helps them to calculate SPI and CPI. Additionally, a Quiz Bot also installed for Some Fun! 😉
 
 ### [IIITDMJ GPA CALCULATOR](https://iiitdmj-gpa.now.sh/)
@@ -23,4 +24,4 @@ You should now have the application running and accessible at http://localhost:8
 You can run the tests by executing:
 ``` bash
 npm run test
-```
+``
