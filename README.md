@@ -24,4 +24,4 @@ You should now have the application running and accessible at http://localhost:8
 You can run the tests by executing:
 ``` bash
 npm run test
-``
+```
