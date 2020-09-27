@@ -1,12 +1,12 @@
 This PR...
 
-## Changes
+## Changes :factory:
 -
 
-## Screenshots
-(prefer animated gif) :camera:
+## Screenshots :camera:
+(prefer animated gif) 
 
-## Checklist
+## Checklist :dart:
 - [ ] tested locally 
 - [ ] added new dependencies
 - [ ] updated the docs
