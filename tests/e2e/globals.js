@@ -24,7 +24,6 @@ module.exports = {
     /*
     The globals defined here are available everywhere in any test env
     */
-
     /*
     myGlobal: function() {
       return 'I\'m a method';
