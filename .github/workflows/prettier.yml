@@ -1,0 +1,24 @@
+name: Prettier
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: GitHub Action for Prettier
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Prettify code
+        uses: creyD/prettier_action@v2.2
+        with:
+          prettier_options: --write **/*.{css,html,js,md}
