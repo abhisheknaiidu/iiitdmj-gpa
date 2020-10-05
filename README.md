@@ -4,9 +4,8 @@
 
 ![](https://visitor-badge.glitch.me/badge?page_id=abhisheknaiidu.IIITDMJ-GPA)
 
-
-
 ### A Simple Web App for IIITDMJ Students, Which helps them to calculate SPI and CPI. Additionally, a Quiz Bot also installed for Some Fun! 😉
+
 </center>
 <center>
     <h2> Check Out </h2>
@@ -23,9 +22,11 @@
 <hr>
 
 ## Tech Stack
- # Stack    |                                                                                                 |                                                                                                |                                                                                                |                                                                                                                 |                                                                                                    
+
+# Stack | | | | |
+
 | -------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| <p align="center"><img src="./githubImg/img3.png" width="100" height="100"> <br />Vue</p> | <p align="center"><img src="./githubImg/img2.png" width="100" height="100"> <br />JavaScript</p>  | <p align="center"><img src="./githubImg/img1.png" width="100" height="100"> <br />Scss</p>   | <p align="center"><img src="./githubImg/img4.png" width="100" height="100"> <br />HTML</p> |
+| <p align="center"><img src="./githubImg/img3.png" width="100" height="100"> <br />Vue</p> | <p align="center"><img src="./githubImg/img2.png" width="100" height="100"> <br />JavaScript</p> | <p align="center"><img src="./githubImg/img1.png" width="100" height="100"> <br />Scss</p> | <p align="center"><img src="./githubImg/img4.png" width="100" height="100"> <br />HTML</p> |
 
 <hr>
 
@@ -34,6 +35,7 @@
 Start developing locally.
 
 ### Step 1: Clone the repo
+
 Fork the repository. then clone the repo locally by doing -
 
 ```sh
@@ -42,10 +44,10 @@ git clone https://github.com/abhisheknaiidu/iiitdmj-gpa.git
 
 ### Step 2: cd into the directory
 
-
 ```sh
 cd iiitdmj-gpa
 ```
+
 # installs dependencies
 
 ```sh
@@ -73,6 +75,7 @@ You can run the tests by executing:
 ```bash
 npm run test
 ```
+
 ### Pushing the changes
 
 ```bash
@@ -81,4 +84,4 @@ git commit -m "feat: added new stuff"
 git push YOUR_REPO_URL develop
 ```
 
-Made with :heart: by Abhishek Naidu 
+Made with :heart: by Abhishek Naidu
