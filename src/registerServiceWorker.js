@@ -1,3 +1,6 @@
+/* eslint-disable quotes */
+/* eslint-disable comma-dangle */
+/* eslint-disable operator-linebreak */
 /* eslint-disable no-console */
 
 import { register } from "register-service-worker";

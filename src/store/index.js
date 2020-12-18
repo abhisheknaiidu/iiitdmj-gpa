@@ -1,3 +1,5 @@
+/* eslint-disable comma-dangle */
+/* eslint-disable quotes */
 import Vue from "vue";
 import Vuex from "vuex";
 

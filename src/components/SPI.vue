@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 <template>
   <div>
     <div class="nav">
@@ -28,7 +29,6 @@
         </td>
     </tr>
     </table>
-    <h6 class='ss'> <span class="note">Note :</span> Now you can also opt for SS Grade 😉     </h6>
     <hr v-if="totalSPI">
     <div class="result" v-if="totalSPI">
     <h3>{{tweenSPI}}<span class="outof" v-if="totalSPI">/10</span></h3>

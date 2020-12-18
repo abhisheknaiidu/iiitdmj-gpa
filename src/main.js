@@ -1,3 +1,6 @@
+/* eslint-disable arrow-parens */
+/* eslint-disable comma-dangle */
+/* eslint-disable quotes */
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
