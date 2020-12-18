@@ -116,31 +116,31 @@
 		{
 			"courseCode": "DS302",
 			"courseName": "Engineering Design",
-			"courseCredits": 5
+			"courseCredits": 4
 		},
 		{
 			"courseCode": "CS307",
 			"courseName": "Computer Networks",
-			"courseCredits": 4
+			"courseCredits": 3
 		},
 		{
 			"courseCode": "CS308",
 			"courseName": "Operating System",
-			"courseCredits": 4
+			"courseCredits": 3
 		},
 		{
 			"courseCode": "CS309",
 			"courseName": "Language Theory",
-			"courseCredits": 4
+			"courseCredits": 3
 		},
 		{
 			"courseCode": "CS310",
-			"courseName": "Elective",
-			"courseCredits": 2
+			"courseName": "Soft Computing",
+			"courseCredits": 3
         },
         {
             "courseCode": "CS331",
-            "courseName": "Lab Based Project 2",
+            "courseName": "Networking Lab",
             "courseCredits": 2
         }
 	],

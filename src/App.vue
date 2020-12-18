@@ -20,10 +20,10 @@
       </div>
     </div>
     </div>
-    <div class="cui-embed" data-cui-uid="oWD33V"
+    <!-- <div class="cui-embed" data-cui-uid="oWD33V"
     data-cui-avatar="https://images.typeform.com/images/74GFgzxk2UPM"
     data-cui-mode="pill" data-cui-pill-button-color="#E26D5A">
-    </div>
+    </div> -->
     <footer><a href="https://github.com/abhisheknaiidu/gradecalc" target="_blank">Made with 💕 by </a> <a href="https://abhisheknaidu.tech/" target="_blank">  abhisheknaiidu 😷 </a></footer>
   </div>
 </template>
